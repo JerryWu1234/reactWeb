@@ -16,7 +16,6 @@ class BottomBar extends React.Component{
         //     activeKey: item.key
         // }))
         this.props.history.replace(item.key);
-        console.log(this.props.history)
     }
     renderItems(){
 
