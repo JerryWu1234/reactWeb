@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 
 import { TABKEY } from '../config';
 import {changeTab, getFilterData, changeFilter} from "../actions/categoryAction";
-// import { getListData } from '../actions/contentListAction';
+import { getListData } from '../actions/contentAciton';
 
 class Header extends React.Component {
     constructor(props) {
@@ -49,10 +49,10 @@ class Header extends React.Component {
             key
         }));
 
-        // this.props.dispatch(getListData({
-        //     filterData: item,
-        //     toFirstPage: true
-        // }));
+        this.props.dispatch(getListData({
+            filterData: item,
+            toFirstPage: true
+        }));
     }
     /**
      * 点击切换tab

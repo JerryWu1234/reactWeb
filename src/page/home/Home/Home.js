@@ -13,7 +13,6 @@ import ContentList from './ContentList/ContentList'
  */
 
 class Home extends React.Component {
-
     render(){
         return (
             <div>

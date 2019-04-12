@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux'
 import './ContentList.scss'
 import {getListData} from "../../actions/contentListAction";
-import ListItem from './ListItem/ListItem'
+import ListItem from '../../../../component/ListItem/ListItem'
 import ScrollView from 'component/ScrollView/ScrollView.js'
 /**
  * @constructor <Home />

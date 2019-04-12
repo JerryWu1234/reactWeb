@@ -1,12 +1,26 @@
-import {createStore , applyMiddleware} from 'redux';
+import {createStore ,compose, applyMiddleware} from 'redux';
+import { routerMiddleware } from 'connected-react-router'
 import {reducers} from './reducers/main'
 import thunk from 'redux-thunk'
-const store =  createStore(reducers, applyMiddleware(thunk))
 
-if(module.hot){
-    module.hot.accept('./reducers/main', () =>{
-        const nextRootReducer = require('./reducers/main').default;
-        store.replaceReducer(nextRootReducer)
-    });
+import { createBrowserHistory } from 'history'
+export const history = createBrowserHistory()
+// const store =  createStore(reducers, applyMiddleware(thunk))
+
+history.push('dateil.html#/Menu');
+
+export default function configureStore(preloadedState) {
+    const store = createStore(
+        reducers(history), // root reducer with router state
+        preloadedState,
+        compose(
+            applyMiddleware(
+                thunk,
+                routerMiddleware(history), // for dispatching history actions
+                // ... other middlewares ...
+            ),
+        ),
+    )
+
+    return store
 }
-export default store

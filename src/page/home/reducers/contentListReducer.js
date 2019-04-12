@@ -1,7 +1,7 @@
 import {GET_LIST} from "../actions/actionTypes";
 
 const initState = {
-    list: []
+    list: [],
 }
 const getListData = (state, action) => {
     if(action.page === 0){
