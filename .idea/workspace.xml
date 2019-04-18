@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d2ba3e6-4d27-4170-86fc-a4a99ab605a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d2ba3e6-4d27-4170-86fc-a4a99ab605a7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmt/webpack.config.build.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webmt/.eslintrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -198,7 +205,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="282" />
     <option name="y" value="61" />
     <option name="width" value="1920" />
@@ -216,6 +223,11 @@
             <path>
               <item name="mtdome" type="b2602c69:ProjectViewProjectNode" />
               <item name="mtdome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtdome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtdome" type="462c0819:PsiDirectoryNode" />
+              <item name="webmt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,11 +336,12 @@
       <workItem from="1555060258504" duration="5962000" />
       <workItem from="1555068000198" duration="1980000" />
       <workItem from="1555120091269" duration="94000" />
+      <workItem from="1555486762737" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118728000" />
+    <option name="totallyTimeSpent" value="118746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,9 +353,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="61" width="1920" height="795" extended-state="0" />
+    <frame x="0" y="26" width="1440" height="795" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48552337" visible="true" weight="0.12532912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48552337" visible="true" weight="0.12473573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5144766" side_tool="true" weight="0.12532912" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -355,8 +369,8 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997367" weight="0.32842582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997367" weight="0.3295583" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5165877" side_tool="true" visible="true" weight="0.49075392" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48341233" visible="true" weight="0.49075392" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5172657" side_tool="true" visible="true" weight="0.49075392" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48273432" visible="true" weight="0.49075392" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,23 +426,10 @@
     <entry file="file://$PROJECT_DIR$/webmt/.babelrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webmt/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/.babelrc" />
     <entry file="file://$PROJECT_DIR$/webpack.config.dev.js" />
-    <entry file="file://$USER_HOME$/Downloads/coding-272/waimaiServer/routes/proxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/coding-272/waimaiServer/routes/proxy.js" />
     <entry file="file://$PROJECT_DIR$/waimaiServer/bin/www" />
     <entry file="file://$PROJECT_DIR$/webmt/src/page/category/actions/categoryAction.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,6 +510,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmt/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
